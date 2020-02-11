@@ -1,0 +1,18 @@
+{
+  "name": "Go Trello",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Write the selected anchor tag content on trello card.",
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": ["index.js"]
+  },
+  "permissions": ["tabs", "contextMenus"]
+}
